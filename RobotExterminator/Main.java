@@ -10,6 +10,7 @@ public class Main {
     public static void main(String[] args) {
         Udari();
         System.out.println("Ееее свърши тока.");
+        Communication();
     }
 
 
@@ -46,7 +47,6 @@ public class Main {
         return screenSize.height * screenSize.width;
     }
     public static void Zarejdane(){
-        Communication();
         Random rand = new Random();
         int randBateriq1 = rand.nextInt(1000);
         int randBateriq2 = rand.nextInt(1000);
